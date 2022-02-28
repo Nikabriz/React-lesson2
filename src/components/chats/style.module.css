@@ -1,0 +1,27 @@
+.owner_chats {
+    display: flex;
+    width: 100%;
+    min-height: 100vh
+}
+
+.messages {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.chats {
+    border-right: 2px solid #7d7c7c;
+    width: 10%;
+    min-height: 100vh;
+}
+
+.chat_item {
+    color: #333;
+    cursor: pointer;
+}
+
+.active {
+    color: #2c8af1;
+}
